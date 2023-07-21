@@ -17,10 +17,17 @@ img {
 
 a {
     display: block;
-    background-color: rgba(0, 255, 255, 0.596);
+    background-color: rgba(0, 17, 255, 0.452);
     color: whitesmoke;
     padding: 20px;
     text-align: center;
     font-weight: bolder;
     text-decoration: none;
+}
+a:hover{
+    background-color: rgb(124, 228, 228);
+    color: black;
+    font-weight: bolder;
+    transform: translate(-1px, -1px);
+    transition: transform 1s;
 }
